@@ -1,0 +1,86 @@
+body {
+  height: 100vh;
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background: url("https://wallpaper.dog/large/10988949.jpg");
+}
+
+h1 {
+  text-align: center;
+  color: #8b8000;
+  font-size: 5em;
+  margin: 1em 2em;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 4em;
+  color: white;
+  font-size: 1.9em;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align: center;
+}
+
+input {
+  margin-top: 3em;
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Buttons */
+.buttonWrapper {
+  text-align: center;
+}
+
+.button {
+  color: white;
+  display: inline-block;
+  border: 2px solid;
+  padding: 11px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* background */
+
+/* Nav bar */
+#main-menu .nav-bar {
+  list-style: none;
+  margin-top: 40px;
+}
+#main-menu .nav-bar li {
+  display: inline;
+  padding: 0 10px;
+}
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: White;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+.nav-bar .nav-button-home a {
+  background: url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif")
+    no-repeat 0px -2px transparent;
+}
+
+.nav-bar .nav-button-services a {
+  background: url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif")
+    no-repeat 0px -2px transparent;
+}
+
+.nav-bar .nav-button-products a {
+  background: url("https://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif")
+    no-repeat 0px -2px transparent;
+}
