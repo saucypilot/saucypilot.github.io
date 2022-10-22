@@ -4,7 +4,11 @@ body {
   font-family: Oswald, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  background: url("https://wallpaper.dog/large/10988949.jpg");
+  background: url("https://wallpaper.dog/large/10988949.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
